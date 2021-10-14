@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style data-merge-styles="true"></style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/f5d094b604.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+
+    <style type="text/css">
+      #bu-quicksearchdiv * {
+        box-sizing: content-box;
+      }
+
+      #bu-quicksearchdiv svg {
+        box-sizing: content-box;
+      }
+
+      #bu-disabledpopup * {
+        box-sizing: content-box;
+      }
+
+      #bu-search:before {
+        left: -4px !important;
+        top: 38% !important;
+        height: 6px !important;
+        width: 6px !important;
+        border: 1px solid #484644 !important;
+        border-right: none !important;
+        border-top: none !important;
+        content: " " !important;
+        background: #484644 !important;
+        position: absolute !important;
+        transform: rotate(45deg) !important;
+      }
+
+      #bu-disabledpopup:before {
+        left: -4px !important;
+        top: 38% !important;
+        height: 6px !important;
+        width: 6px !important;
+        border: 1px solid #484644 !important;
+        border-right: none !important;
+        border-top: none !important;
+        content: " " !important;
+        background: #484644 !important;
+        position: absolute !important;
+        transform: rotate(45deg) !important;
+      }
+
+      .topArrow #bu-search:before {
+        left: 50% !important;
+        top: -4px !important;
+        height: 6px !important;
+        width: 6px !important;
+        border: 1px solid #484644 !important;
+        border-top: none !important;
+        border-left: none !important;
+        content: " " !important;
+        background: #484644 !important;
+        position: absolute !important;
+        transform: rotate(225deg) !important;
+      }
+
+      .topArrow #bu-disabledpopup:before {
+        left: 50% !important;
+        top: -4px !important;
+        height: 6px !important;
+        width: 6px !important;
+        border: 1px solid #484644 !important;
+        border-top: none !important;
+        border-left: none !important;
+        content: " " !important;
+        background: #484644 !important;
+        position: absolute !important;
+        transform: rotate(225deg) !important;
+      }
+
+      #bu-disabledpopup:hover:before,
+      #bu-search:hover:before,
+      #bu-moreoptions:hover,
+      #bu-search:hover,
+      #bu-copy:hover,
+      #bu-disabledpopup:hover,
+      #bu-lookup:hover,
+      #bu-disableFeature:hover {
+        background-color: #666 !important;
+      }
+
+      #bu-disabledpopup:active:before,
+      #bu-search:active:before,
+      #bu-moreoptions:active,
+      #bu-search:active,
+      #bu-copy:active,
+      #bu-disabledpopup:active,
+      #bu-lookup:active,
+      #bu-disableFeature:active {
+        background-color: #666 !important;
+      }
+    </style>
+
+    <link rel="stylesheet" href="./style (1).css" />
+  </head>
+  <body
+    style="background: white"
+    class="__fb-dark-mode"
+    data-new-gr-c-s-check-loaded="14.994.0"
+    data-gr-ext-installed=""
+  >
+    <div class="st-navbar">
+      <div class="st-logo">
+        <img
+          style="padding: 5px; height: 50px; width: 50px"
+          src="images/ngu_mini_logo.png"
+          alt=""
+        />
+      </div>
+      <div class="st-comp-line">
+        <p><span>0% COMPLETE</span>0/2 Steps</p>
+        <div class="st-prog-bar"><div class="st-in-prog-bar"></div></div>
+      </div>
+      <div class="st-ne-pre"></div>
+      <div class="st-user">
+        <p>Hello, ahmed !</p>
+        <img src="images/search.PNG" alt="" />
+      </div>
+    </div>
+
+    <div class="flex">
+      <div class="sidebar" style="margin-left: 0px">
+        <i
+          id="collapse"
+          class="fas fa-chevron-left fofo"
+          aria-hidden="true"
+        ></i>
+        <div class="top-part">
+          <i class="far fa-file-alt" aria-hidden="true"></i>
+          <a href="#"><span>Introduction to Desktop Operating Systems</span></a>
+        </div>
+        <div class="down-part">
+          <div class="sections">
+            <div class="up-sections">
+              <div class="name">
+                <img src="img/in progress.PNG" alt="" />
+                <h3>
+                  <a
+                    href="section_topics.php?id=MTJ5MzJzZmFkYWZkc2Fld2l1&amp;name=U2VjdGlvbi0xIEludHJvZHVjdGlvbiB0byBPcGVyYXRpbmcgU3lzdGVtIEZ1bmRhbWVudGFsc3kzMnNmYWRhZmRzYWV3aXU="
+                    style="color: black; font-family: lato, sans-serif"
+                    >Section-1 Introduction to Operating System Fundamentals</a
+                  >
+                </h3>
+              </div>
+              <div class="info">
+                <i
+                  class="fas fa-chevron-down expandI"
+                  onclick="expand_div(12);"
+                  aria-hidden="true"
+                ></i>
+                <p>1 Topics</p>
+                <p>0 Quiz</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="sects down-sections downSections" id="section_12">
+            <ul>
+              <li>
+                <a href="topic_details.php?id=MjJ5MzJzZmFkYWZkc2Fld2l1">
+                  <i class="fas fa-check-circle" aria-hidden="true"></i> The
+                  Function of the Operating System
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="sections">
+            <div class="up-sections">
+              <div class="name">
+                <img src="img/in progress.PNG" alt="" />
+                <h3>
+                  <a
+                    href="section_topics.php?id=MTN5MzJzZmFkYWZkc2Fld2l1&amp;name=U2VjdGlvbi0yIEludHJvZHVjdGlvbiBPZiBoYXJkd2FyZSBWaXJ0dWFsaXphdGlvbnkzMnNmYWRhZmRzYWV3aXU="
+                    style="color: black; font-family: lato, sans-serif"
+                    >Section-2 Introduction Of hardware Virtualization</a
+                  >
+                </h3>
+              </div>
+              <div class="info">
+                <i
+                  class="fas fa-chevron-down expandI"
+                  onclick="expand_div(13);"
+                  aria-hidden="true"
+                ></i>
+                <p>1 Topics</p>
+                <p>0 Quiz</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="sects down-sections downSections" id="section_13">
+            <ul>
+              <li>
+                <a href="topic_details.php?id=MjN5MzJzZmFkYWZkc2Fld2l1">
+                  <i class="fas fa-check-circle" aria-hidden="true"></i> 2-1.
+                  Hardware Virtualization Overview
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- <script>
+        function expand_div(id) {
+          ///document.querySelectorAll(".topics").style.display = 'none';
+          var div = "section_" + id;
+          if (document.getElementById(div).style.display == "flex") {
+            document.getElementById(div).style.display = "none";
+          } else {
+            document.getElementById(div).style.display = "flex";
+          }
+        }
+
+        function collapse() {
+          let sidebar = document.querySelector(".sidebar");
+          sidebar.style.marginLeft = "0";
+        }
+      </script> -->
+      <div class="f2">
+        <div class="sec-title">
+          Section-1 Introduction to Operating System Fundamentals
+        </div>
+
+        <div class="location-bar">
+          <p>
+            <a
+              href="course_sections.php?id=NXkzMnNmYWRhZmRzYWV3aXU=&amp;name=SW50cm9kdWN0aW9uIHRvIERlc2t0b3AgT3BlcmF0aW5nIFN5c3RlbXN5MzJzZmFkYWZkc2Fld2l1"
+              >Introduction to Desktop Operating Systems</a
+            >
+            &gt;
+            <a
+              href="section_topics.php?id=MTJ5MzJzZmFkYWZkc2Fld2l1&amp;name=U2VjdGlvbi0xIEludHJvZHVjdGlvbiB0byBPcGVyYXRpbmcgU3lzdGVtIEZ1bmRhbWVudGFsc3kzMnNmYWRhZmRzYWV3aXU="
+            >
+              Section-1 Introduction to Operating System Fundamentals
+            </a>
+          </p>
+        </div>
+
+        <div class="all-topics">
+          <div class="top-part">
+            <div class="tleft">
+              <img src="images/file.PNG" alt="" />
+              <a href="#"><span>Lesson Content</span></a>
+            </div>
+            <div class="tright">
+              <span>0% COMPLETE</span>
+              <div class="ldoline"></div>
+              0/1 Steps
+            </div>
+          </div>
+          <div class="down-part">
+            <ul>
+              <li>
+                <a href="topic_details.php?id=MjJ5MzJzZmFkYWZkc2Fld2l1"
+                  ><img src="images/empty_course.png" "="" alt=""> The Function
+                  of the Operating System
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <a href="#" class="mar-bot">Back to Course</a>
+      </div>
+    </div>
+
+    <script>
+      const expand = document.querySelector(".expandI");
+      const dSections = document.querySelector(".downSections");
+      expand.addEventListener("click", () => {
+        if (dSections.style.display == "none") {
+          dSections.style.display = "flex";
+          expand.classList.remove("fa-chevron-down");
+          expand.classList.add("fa-chevron-up");
+        } else {
+          dSections.style.display = "none";
+          expand.classList.remove("fa-chevron-up");
+          expand.classList.add("fa-chevron-down");
+        }
+      });
+
+      const collapsebar = document.querySelector("#collapse");
+      const sidebar = document.querySelector(".sidebar");
+
+      const mouseEnterFunc = () => sidebar.classList.add("sidebar-active");
+      const mouseLeaveFunc = () => sidebar.classList.remove("sidebar-active");
+
+      sidebar.addEventListener("mouseenter", mouseEnterFunc);
+      sidebar.addEventListener("mouseleave", mouseLeaveFunc);
+
+      let removeClassTimeOut;
+
+      collapsebar.addEventListener("click", () => {
+        sidebar.removeEventListener("mouseenter", mouseEnterFunc);
+        sidebar.classList.toggle("sidebar-active");
+        if (removeClassTimeOut) clearTimeout(removeClassTimeOut);
+        removeClassTimeOut = setTimeout(
+          () => sidebar.addEventListener("mouseenter", mouseEnterFunc),
+          250
+        );
+        // if (sidebar.style.transform == 0) {
+        //   collapsebar.classList.remove("fa-chevron-left");
+        //   collapsebar.classList.add("fa-chevron-right");
+        //   sidebar.style.transform = "translateX(-300px)";
+        // } else {
+        //   collapsebar.classList.remove("fa-chevron-right");
+        //   collapsebar.classList.add("fa-chevron-left");
+        //   sidebar.style.transform = "translateX(0)";
+        // }
+      });
+    </script>
+  </body>
+</html>
